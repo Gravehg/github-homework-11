@@ -23,6 +23,7 @@ jobs:
     - name: test code
       run: npm run test
   dockerimage:
+    needs: test
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
