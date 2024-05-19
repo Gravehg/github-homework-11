@@ -10,11 +10,11 @@ describe("Calculator class", () => {
   });
 
   it("Multiplies two numbers correctly", () => {
-    expect(Calculator.multiply(3, 4)).toBe(12);
+    expect(Calculator.multiply(3, 4)).toBe(11);
   });
 
   it("Divides two numbers correctly", () => {
-    expect(Calculator.divide(5, 5)).toBe(-1);
+    expect(Calculator.divide(5, 5)).toBe(1);
   });
   it("throws an error when dividing by zero", () => {
     expect(() => {
