@@ -14,7 +14,7 @@ describe("Calculator class", () => {
   });
 
   it("Divides two numbers correctly", () => {
-    expect(Calculator.divide(5, 5)).toBe(0);
+    expect(Calculator.divide(5, 5)).toBe(-2);
   });
   it("throws an error when dividing by zero", () => {
     expect(() => {
