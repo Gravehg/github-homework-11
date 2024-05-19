@@ -3,6 +3,9 @@ name: Tests code and builds docker image
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    
 jobs:
   test:
     runs-on: ubuntu-latest
