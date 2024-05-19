@@ -18,7 +18,7 @@ describe("Calculator class", () => {
   });
 
   it("Divides negatives", () => {
-    expect(Calculator.divide(-5, -1)).toBe(1);
+    expect(Calculator.divide(-5, -1)).toBe(5);
   });
   it("throws an error when dividing by zero", () => {
     expect(() => {
